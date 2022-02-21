@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+.headder-top{
+    background-color: bisque;
+    font-size: medium;
+    color: brown;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -3px;
+}
+
+#center-t{
+  font-size: 35px;
+  text-align: center;
+}
+
+.rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+
+
+  #work {
+    padding: 50px 100px;
+    background-color: #fbfbfb;
+  }
+  
+  
+  
+  #work .workList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 64px;
+  }
+  
+  
+  
+  #work .workList .card {
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding: 12px;
+    border-radius: 40px 40px 0 0;
+  }
+
+  .img-size{
+
+    width: 100%;
+
+  }
+
+
+  footer {
+    background-color: #0d0e1b;
+    color: white;
+    padding: 16px 0;
+  }
+
+  footer span {
+    color: red;
+  }
